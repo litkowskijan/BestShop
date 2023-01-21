@@ -351,6 +351,9 @@
     border-radius: 23px;
     margin: -25px 0 0 0;
 }
+.pricing__button:hover {
+    cursor: pointer;
+}
 .pricing__overbox:nth-child(2) {
     margin: 0 60px;
 }
