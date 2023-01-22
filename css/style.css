@@ -1,6 +1,14 @@
 * {
     font-family: 'Open Sans', sans-serif;
     overflow: auto;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #A5A5A5;
+}
+a:hover {
+    color: black;
 }
 .container__width {
     width: 1352px;
@@ -73,6 +81,7 @@
 }
 .open__section__button:hover {
     cursor: pointer;
+    color: white;
 }
 .statistics__section {
     height: 531px;
