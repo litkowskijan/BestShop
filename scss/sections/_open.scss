@@ -1,0 +1,45 @@
+@import '../settings/variables';
+@import '../settings/mixins';
+
+.open__section {
+  background-image: url("../images/Background.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 736px 220px;
+
+  @include desktop {
+    height: 910px;
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .open__section__container {
+    @include flex-center;
+    height: 670px;
+    flex-direction: column;
+
+    .open__section__title {
+      font: normal normal normal 50px/60px Raleway;
+      text-align: center;
+    }
+
+    .open__section__lead {
+      font: normal normal normal 16px/22px 'Open Sans';
+      text-align: center;
+      width: 80%;
+    }
+
+    .open__section__button {
+      background: #08A6E4 0 0 no-repeat padding-box;
+      box-shadow: 5px 10px 14px #07ACE629;
+      border-radius: 40px;
+      padding: 22px;
+      margin-top: 35px;
+      font: normal normal bold 16px/22px Open Sans;
+      color: #FFFFFF;
+      width: 80%;
+      max-width: 320px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import 'settings/reset';
+@import 'settings/variables';
+@import 'settings/mixins';
+
+.container__width {
+  width: 90%;
+  max-width: 1352px;
+  margin: 0 auto;
+}
+
+.rotate__div {
+  height: 140px;
+  width: 100%;
+}
+@import "sections/header";
+@import "sections/open";
+@import "sections/statistics";
+@import "sections/benefits";
+@import "sections/pricing";
+@import "sections/contact";
+@import "sections/footer";

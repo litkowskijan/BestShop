@@ -6,13 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BestShop</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/main.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
     <header class="header__section">
         <div class="header__container container__width">
             <span class="header__logo">BestShop</span>
@@ -22,8 +23,22 @@
                 <li class="header__menu__content"><a href="#section3">PRICES</a></li>
                 <li class="header__menu__content"><a href="#section4">CONTACT</a></li>
             </ul>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <span class="nav__x fa-solid fa-xmark"></span>
+                <i class="nav__bars fa-solid fa-bars"></i>
+            </label>
+            <div class="hamburger__box">
+                <div class="hamburger__content">
+                    <a href="#section1">WHY US</a>
+                    <a href="#section2">BENEFITS</a>
+                    <a href="#section3">PRICES</a>
+                    <a href="#section4">CONTACT</a>
+                </div>
+            </div>
         </div>
     </header>
+
     <section class="open__section">
         <div class="open__section__container container__width">
             <h1 class="open__section__title">Sell More!</h1>
@@ -31,6 +46,7 @@
             <a class="open__section__button">Open your shop</a>
         </div>
     </section>
+
     <section class="statistics__section" id="section1">
         <div class="statistics__section__container container__width">
             <h2 class="statistics__section__title">The most popular sales platform in country</h2>
@@ -56,6 +72,7 @@
             </div>
         </div>
     </section>
+
     <section class="benefits__section" id="section2">
         <div class="benefits__section__container container__width">
             <div class="benefit__box">
@@ -84,7 +101,7 @@
 
             <div class="benefit__last__box">
                 <div class="benefit__article">
-                    <h2 class="benefit__article__title">Your shop<br>is where you are!</h2>
+                    <h2 class="benefit__article__title">Increase<br>recognition your<br>brand!</h2>
                     <p class="benefit__article__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="benefit__article__underline"></div>
                 </div>
@@ -100,8 +117,10 @@
             <div class="pricing__boxes">
                 <div class="pricing__overbox">
                     <div class="pricing__box">
-                        <h3 class="pricing__name">Basic</h3>
-                        <a class="pricing__price">$0</a>
+                        <div class="first__box__part">
+                            <h3 class="pricing__name">Basic</h3>
+                            <a class="pricing__price">$0</a>
+                        </div>
                         <ul class="pricing__items">
                             <li class="pricing__item">100 MB HDD</li>
                             <li class="pricing__item">1 Subdomain</li>
@@ -114,9 +133,11 @@
                 </div>
                 <div class="pricing__overbox">
                     <div class="pricing__box">
-                        <h3 class="pricing__name">Professional</h3>
-                        <a class="pricing__price">$25</a>
-                        <a class="pricing__offer">Limited offer</a>
+                        <div class="first__box_part">
+                            <h3 class="pricing__name">Professional</h3>
+                            <a class="pricing__price">$25</a>
+                            <a class="pricing__offer">Limited offer</a>
+                        </div>
                         <ul class="pricing__items">
                             <li class="pricing__item">500 MB HDD</li>
                             <li class="pricing__item">2 Subdomains</li>

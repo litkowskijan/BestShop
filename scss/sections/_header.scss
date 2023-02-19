@@ -1,0 +1,150 @@
+@import '../settings/variables';
+@import '../settings/mixins';
+
+.header__section {
+  height: 70px;
+  box-shadow: 0 3px 6px #00000029;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .header__logo {
+      font: normal normal 300 32px/37px Raleway;
+      color: #08A6E4;
+    }
+
+    .header__menu {
+      display: none;
+      margin-left: auto;
+
+      @include desktop {
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-end;
+        height: 70px;
+        column-gap: 10%;
+        width: 60%;
+      }
+
+      .header__menu__content {
+
+        @include desktop {
+          font: normal normal bold 11px/70px Open Sans;
+          letter-spacing: 3.28px;
+          color: #A5A5A5;
+          display: flex;
+          align-items: center;
+
+          &:hover {
+            color: black;
+            border-bottom: 4px solid #08A6E4;
+            cursor: pointer;
+            box-sizing: content-box;
+            padding-top: 4px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #A5A5A5;
+
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+
+    i {
+      font-size: 35px;
+      color: $main-blue;
+
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+}
+
+.header__container {
+  input {
+    display: none;
+  }
+
+  .nav__hamburger {
+    display: none;
+  }
+
+  .hamburger__box {
+    display: none;
+    width: 120%;
+    background-color: $background-color;
+    position: absolute;
+    top: 70px;
+    left: -10%;
+    color: black;
+    box-shadow: inset 0 0 6px #00000029;
+
+    .hamburger__content {
+      display: flex;
+      flex-direction: column;
+      margin-left: 8.5%;
+      padding: 20px 0;
+
+      a {
+        font: normal normal bold 15px/45px Open Sans;
+        letter-spacing: 3.28px;
+        color: #A5A5A5;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  .nav__x {
+    display: none;
+    color: $main-blue;
+    font-size: 35px;
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  input:checked {
+    ~ label .nav__bars {
+      display: none;
+    }
+
+    ~ label .nav__x {
+      display: block;
+
+      @include desktop {
+        display: none;
+      }
+    }
+
+    ~.hamburger__box {
+      display: block;
+
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+}
