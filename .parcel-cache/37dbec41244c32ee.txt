@@ -8,7 +8,7 @@
 72/home/janlitkowski/Pulpit/CodersLab/BestShop/dist/Checkmark.5be52c02.svg1676572340255611203 0
 74/home/janlitkowski/Pulpit/CodersLab/BestShop/dist/BestShop.3464ddca.js.map1676737771726916566 0
 49/home/janlitkowski/Pulpit/CodersLab/BestShop/dist1676737771734924253 1
-59/home/janlitkowski/Pulpit/CodersLab/BestShop/scss/main.scss1676737682511273629 0
+59/home/janlitkowski/Pulpit/CodersLab/BestShop/scss/main.scss1677244033695598794 0
 71/home/janlitkowski/Pulpit/CodersLab/BestShop/scss/settings/_mixins.scss1676636451133272088 0
 70/home/janlitkowski/Pulpit/CodersLab/BestShop/scss/settings/_reset.scss1676636451117272130 0
 72/home/janlitkowski/Pulpit/CodersLab/BestShop/scss/sections/_contact.scss1676635749682737110 0
@@ -1767,7 +1767,7 @@
 158/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-down/package.json1676571985185098754 0
 107/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@parcel/package-manager/src/promiseFromProcess.js1676571985009099479 0
 89/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/regions/NE.js1676571985277098374 0
-50/home/janlitkowski/Pulpit/CodersLab/BestShop/.idea1676737694995197891 1
+50/home/janlitkowski/Pulpit/CodersLab/BestShop/.idea1677332579576211140 1
 89/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/regions/MV.js1676571985273098391 0
 79/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/readdirp/package.json1676571984793100368 0
 76/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/callsites/index.js1676571984797100352 0
@@ -2017,7 +2017,7 @@
 78/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/posthtml-render/dist1676571984857100104 1
 100/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@jridgewell/gen-mapping/src/gen-mapping.ts1676571984905099906 0
 78/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/term-size/index.d.ts1676571984897099939 0
-44/home/janlitkowski/Pulpit/CodersLab/BestShop1676730225612118282 1
+44/home/janlitkowski/Pulpit/CodersLab/BestShop1677332699967801692 1
 109/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@parcel/optimizer-htmlnano/src/HTMLNanoOptimizer.js1676571984813100286 0
 110/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@parcel/runtime-js/src/helpers/worker/wasm-loader.js1676571984993099545 0
 105/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/features/css-width-stretch.js1676571985181098769 0
@@ -2289,7 +2289,7 @@
 104/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/features/font-size-adjust.js1676571985221098605 0
 79/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/css-tree/package.json1676571985153098885 0
 70/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/yaml/browser1676571985009099479 1
-64/home/janlitkowski/Pulpit/CodersLab/BestShop/.idea/workspace.xml1676737694991197917 0
+64/home/janlitkowski/Pulpit/CodersLab/BestShop/.idea/workspace.xml1677332579576211140 0
 66/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/anymatch1676571984801100335 1
 91/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/entities/lib/encode-trie.d.ts.map1676571984933099791 0
 77/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/regenerator-runtime1676571984821100253 1
@@ -2615,7 +2615,7 @@
 103/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/features/css-caret-color.js1676571985109099066 0
 76/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/is-json/.npmignore1676571984789100384 0
 99/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/features/css-filters.js1676571985137098951 0
-57/home/janlitkowski/Pulpit/CodersLab/BestShop/package.json1676572018404961655 0
+57/home/janlitkowski/Pulpit/CodersLab/BestShop/package.json1677332699959801718 0
 89/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/regions/CL.js1676571985077099198 0
 89/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/regions/KP.js1676571985257098457 0
 108/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/@swc/helpers/lib/_iterable_to_array_limit_loose.js1676571984989099561 0
@@ -3928,7 +3928,7 @@
 82/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/node-gyp-build/README.md1676571984845100153 0
 103/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/caniuse-lite/data/features/async-functions.js1676571984985099577 0
 95/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/domelementtype/lib/esm/index.d.ts.map1676571984857100104 0
-49/home/janlitkowski/Pulpit/CodersLab/BestShop/scss1676737682523273562 1
+49/home/janlitkowski/Pulpit/CodersLab/BestShop/scss1677244033695598794 1
 85/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/supports-color/package.json1676571984805100319 0
 79/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/posthtml/package.json1676571984813100286 0
 76/home/janlitkowski/Pulpit/CodersLab/BestShop/node_modules/css-what/readme.md1676571984937099775 0

@@ -1,0 +1,41 @@
+@import '../settings/variables';
+@import '../settings/mixins';
+
+.footer__section {
+  box-shadow: 0 -5px 40px #00000029;
+  background-color: $background-color;
+  height: 90px;
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+    .footer__logo__box {
+      display: flex;
+      flex-direction: column;
+      margin-right: 5px;
+
+      .footer__logo {
+        font: normal normal 300 26px/30px Raleway;
+        color: $main-blue;
+      }
+
+      .footer__copyright {
+        font: normal normal normal 11px/15px Open Sans;
+        color: #A5A5A5;
+      }
+    }
+
+    .social__media {
+      display: flex;
+
+      img {
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

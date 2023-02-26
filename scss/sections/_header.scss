@@ -18,7 +18,7 @@
 
     .header__logo {
       font: normal normal 300 32px/37px Raleway;
-      color: #08A6E4;
+      color: $main-blue;
     }
 
     .header__menu {
@@ -45,7 +45,7 @@
 
           &:hover {
             color: black;
-            border-bottom: 4px solid #08A6E4;
+            border-bottom: 4px solid $main-blue;
             cursor: pointer;
             box-sizing: content-box;
             padding-top: 4px;

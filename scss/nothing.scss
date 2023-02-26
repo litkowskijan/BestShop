@@ -512,10 +512,11 @@ input[type="checkbox"]:checked {
     background-position: center;
 }
 label[for="checkbox"] {
-    width: 405px;
+    width: 300px;
     font: normal normal normal 12px/17px Open Sans;
     color: #707070;
     margin-bottom: 20px;
+    margin-left: auto;
 }
 .button__form {
     border: none;
@@ -527,9 +528,12 @@ label[for="checkbox"] {
     background-color: #08A6E4;
     margin-bottom: 59px;
 }
+
+//**************************************************************************
+
 .footer__section {
     box-shadow: 0 -5px 40px #00000029;
-    background-color: #F7F7F7;
+    background-color: $background-color;
     height: 90px;
 }
 .footer__container {

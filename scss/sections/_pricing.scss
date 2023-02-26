@@ -1,2 +1,187 @@
 @import '../settings/variables';
 @import '../settings/mixins';
+
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+
+  .pricing__title {
+    font: normal normal normal 36px/42px Raleway;
+    margin: 70px auto 30px auto;
+  }
+
+  .pricing__boxes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 30px;
+
+    @include desktop {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 0;
+    }
+
+    .pricing__main {
+      width: 100%;
+    }
+
+    .pricing__overbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include desktop {
+        width: 30%;
+        margin-top: 20px;
+
+        &:nth-child(2) {
+          width: 33%;
+
+          .pricing__box {
+            height: 500px;
+            margin-top: -20px;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+
+        .pricing__box {
+          width: 100%;
+          border: 1px solid $main-blue;
+          box-shadow: 5px 10px 27px #07ACE629;
+
+          .first__box__part {
+
+            .pricing__price {
+              color: $main-blue;
+            }
+          }
+        }
+
+        .pricing__button {
+          background-color: $main-blue;
+        }
+      }
+
+      &:nth-child(3) {
+
+        .pricing__box {
+          border: 1px solid $main-green;
+
+          .first__box__part {
+
+            .pricing__price {
+              color: $main-green;
+            }
+          }
+        }
+
+        .pricing__button {
+          background-color: $main-green;
+        }
+      }
+
+      .pricing__button {
+        padding: 16px 57px;
+        background-color: $main-red;
+        font: normal normal bold 13px/18px Open Sans;
+        color: white;
+        border-radius: 23px;
+        margin: -25px 0 0 0;
+      }
+
+      .pricing__box {
+        display: flex;
+        width: 90%;
+        border: 1px solid $main-red;
+        border-radius: 18px;
+
+        @include desktop {
+          flex-direction: column;
+          height: 461px;
+        }
+
+        .first__box__part {
+          width: 50%;
+          @include flex-center;
+          flex-direction: column;
+
+          @include desktop {
+            width: 100%;
+            height: 35%;
+            margin-top: 20px;
+          }
+
+          .pricing__name {
+            font: normal normal bold 20px/21px Raleway;
+          }
+
+          .pricing__price {
+            font: normal normal 300 46px/47px Open Sans;
+            color: $main-red;
+            margin: 20px 0;
+          }
+
+          .pricing__offer {
+            font: normal normal bold 12px/13px Raleway;
+          }
+        }
+
+        .pricing__items {
+          width: 50%;
+          margin: 30px auto 50px auto;
+
+          @include desktop {
+            width: 100%;
+            height: 65%;
+            @include flex-center;
+            flex-direction: column;
+          }
+
+          .pricing__item {
+            font: normal normal normal 14px/41px Open Sans;
+            margin: 0 2% 0 20%;
+            position: relative;
+
+            @include desktop {
+              margin: 0;
+            }
+
+            &:before {
+              position: absolute;
+              content: '';
+              background-image: url("../images/Ckechmark-1.svg");
+              height: 11px;
+              width: 11px;
+              top: 15px;
+              margin-left: -21px;
+            }
+          }
+
+          .pricing__item__red {
+            font: normal normal normal 14px/41px Open Sans;
+            margin: 0 2% 0 20%;
+            position: relative;
+
+            @include desktop {
+              margin: 0;
+            }
+
+            &:before {
+              position: absolute;
+              content: '';
+              background-image: url("../images/Close.svg");
+              height: 11px;
+              width: 11px;
+              top: 15px;
+              margin-left: -21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

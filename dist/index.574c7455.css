@@ -39,11 +39,6 @@ table {
   margin: 0 auto;
 }
 
-.rotate__div {
-  height: 140px;
-  width: 100%;
-}
-
 .header__section {
   height: 70px;
   width: 100%;
@@ -336,11 +331,11 @@ table {
   background-color: #f7f7f7;
 }
 
-.benefits__section__container {
+.benefits__section .benefits__section__container {
   padding: 5% 0;
 }
 
-.benefits__section__container .benefit__box {
+.benefits__section .benefits__section__container .benefit__box {
   text-align: center;
   background-color: #fff;
   border: 1px solid #e8e9ed;
@@ -353,7 +348,7 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box {
+  .benefits__section .benefits__section__container .benefit__box {
     height: 370px;
     flex-direction: row;
     justify-content: space-between;
@@ -362,14 +357,14 @@ table {
   }
 }
 
-.benefits__section__container .benefit__box .first__benefit__graphic {
+.benefits__section .benefits__section__container .benefit__box .first__benefit__graphic {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .first__benefit__graphic {
+  .benefits__section .benefits__section__container .benefit__box .first__benefit__graphic {
     width: 60%;
     height: 100%;
     justify-content: flex-end;
@@ -377,7 +372,7 @@ table {
   }
 }
 
-.benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__square {
+.benefits__section .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__square {
   height: 100px;
   width: 100px;
   z-index: 5;
@@ -390,7 +385,7 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__square {
+  .benefits__section .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__square {
     height: 140px;
     width: 140px;
     top: -75px;
@@ -398,7 +393,7 @@ table {
   }
 }
 
-.benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__image {
+.benefits__section .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__image {
   width: 192px;
   height: 110px;
   z-index: 10;
@@ -408,18 +403,18 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__image {
+  .benefits__section .benefits__section__container .benefit__box .first__benefit__graphic .first__benefit__image {
     width: 386px;
     height: 219px;
     padding-bottom: 50px;
   }
 
-  .benefits__section__container .benefit__box .benefit__article {
+  .benefits__section .benefits__section__container .benefit__box .benefit__article {
     width: 40%;
   }
 }
 
-.benefits__section__container .benefit__box .benefit__article .benefit__article__title {
+.benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__title {
   width: 80%;
   text-align: left;
   margin: 0 auto;
@@ -427,12 +422,12 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .benefit__article .benefit__article__title {
+  .benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__title {
     font: 36px / 42px Raleway;
   }
 }
 
-.benefits__section__container .benefit__box .benefit__article .benefit__article__lead {
+.benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__lead {
   text-align: left;
   width: 80%;
   margin: 0 auto;
@@ -440,13 +435,13 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .benefit__article .benefit__article__lead {
+  .benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__lead {
     margin: 30px 0 30px 10%;
     font: 16px / 22px Open Sans;
   }
 }
 
-.benefits__section__container .benefit__box .benefit__article .benefit__article__underline {
+.benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__underline {
   width: 50%;
   height: 4px;
   background-color: #fb3b64;
@@ -454,38 +449,38 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box .benefit__article .benefit__article__underline {
+  .benefits__section .benefits__section__container .benefit__box .benefit__article .benefit__article__underline {
     margin-left: 10%;
     display: block;
   }
 }
 
-.benefits__section__container .benefit__box:nth-child(2) {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) {
   flex-direction: column;
   padding: 40px 0;
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box:nth-child(2) {
+  .benefits__section .benefits__section__container .benefit__box:nth-child(2) {
     flex-direction: row;
   }
 }
 
-.benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic {
+  .benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic {
     width: 60%;
     justify-content: flex-start;
     padding-left: 5%;
   }
 }
 
-.benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__circle {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__circle {
   height: 130px;
   width: 130px;
   z-index: 1;
@@ -496,13 +491,13 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__circle {
+  .benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__circle {
     height: 320px;
     width: 320px;
   }
 }
 
-.benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__image {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__image {
   width: 175px;
   height: 135px;
   z-index: 2;
@@ -512,28 +507,28 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__image {
+  .benefits__section .benefits__section__container .benefit__box:nth-child(2) .second__benefit__graphic .second__benefit__image {
     height: 328px;
     width: 426px;
     margin-top: 40px;
     margin-left: 20px;
   }
 
-  .benefits__section__container .benefit__box:nth-child(2) .benefit__article {
+  .benefits__section .benefits__section__container .benefit__box:nth-child(2) .benefit__article {
     width: 40%;
   }
 }
 
-.benefits__section__container .benefit__box:nth-child(2) .benefit__article .benefit__article__title {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) .benefit__article .benefit__article__title {
   margin: 10px auto;
   line-height: 40px;
 }
 
-.benefits__section__container .benefit__box:nth-child(2) .benefit__article .benefit__article__underline {
+.benefits__section .benefits__section__container .benefit__box:nth-child(2) .benefit__article .benefit__article__underline {
   background-color: #08a6e4;
 }
 
-.benefits__section__container .benefit__last__box {
+.benefits__section .benefits__section__container .benefit__last__box {
   border: 1px solid #e8e9ed;
   border-radius: 5px;
   flex-direction: column;
@@ -543,7 +538,7 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box {
+  .benefits__section .benefits__section__container .benefit__last__box {
     height: 370px;
     box-sizing: content-box;
     border: none;
@@ -552,7 +547,7 @@ table {
   }
 }
 
-.benefits__section__container .benefit__last__box .benefit__article {
+.benefits__section .benefits__section__container .benefit__last__box .benefit__article {
   height: 300px;
   width: 100%;
   background-color: #fff;
@@ -564,7 +559,7 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box .benefit__article {
+  .benefits__section .benefits__section__container .benefit__last__box .benefit__article {
     height: 100%;
     width: 55%;
     border: 1px solid #e8e9ed;
@@ -573,7 +568,7 @@ table {
   }
 }
 
-.benefits__section__container .benefit__last__box .benefit__article .benefit__article__title {
+.benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__title {
   width: 80%;
   text-align: left;
   margin-bottom: 10px;
@@ -581,24 +576,24 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box .benefit__article .benefit__article__title {
+  .benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__title {
     font: 36px / 42px Raleway;
   }
 }
 
-.benefits__section__container .benefit__last__box .benefit__article .benefit__article__lead {
+.benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__lead {
   width: 80%;
   font: 14px / 19px Open Sans;
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box .benefit__article .benefit__article__lead {
+  .benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__lead {
     margin: 20px 0;
     font: 16px / 22px Open Sans;
   }
 }
 
-.benefits__section__container .benefit__last__box .benefit__article .benefit__article__underline {
+.benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__underline {
   width: 50%;
   height: 4px;
   background-color: #55dfb4;
@@ -606,13 +601,13 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box .benefit__article .benefit__article__underline {
+  .benefits__section .benefits__section__container .benefit__last__box .benefit__article .benefit__article__underline {
     margin: 0 auto 0 10%;
     display: block;
   }
 }
 
-.benefits__section__container .benefit__last__box .last__row__graphic {
+.benefits__section .benefits__section__container .benefit__last__box .last__row__graphic {
   height: 195px;
   width: 100%;
   background-color: #55dfb4;
@@ -623,7 +618,7 @@ table {
 }
 
 @media (min-width: 736px) {
-  .benefits__section__container .benefit__last__box .last__row__graphic {
+  .benefits__section .benefits__section__container .benefit__last__box .last__row__graphic {
     width: 40%;
     height: 100%;
     border: 1px solid #e8e9ed;
@@ -631,12 +626,392 @@ table {
   }
 }
 
-.benefits__section__container .benefit__last__box .last__row__graphic .last__row__image {
+.benefits__section .benefits__section__container .benefit__last__box .last__row__graphic .last__row__image {
   width: 100%;
   max-width: 300px;
   height: 207px;
   padding-top: 70px;
   padding-right: 20px;
+}
+
+.pricing__container {
+  flex-direction: column;
+  display: flex;
+}
+
+.pricing__container .pricing__title {
+  margin: 70px auto 30px;
+  font: 36px / 42px Raleway;
+}
+
+.pricing__container .pricing__boxes {
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__main {
+  width: 100%;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  .pricing__container .pricing__boxes .pricing__overbox:nth-child(2) {
+    width: 33%;
+  }
+
+  .pricing__container .pricing__boxes .pricing__overbox:nth-child(2) .pricing__box {
+    height: 500px;
+    margin-top: -20px;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(2) .pricing__box {
+  width: 100%;
+  border: 1px solid #08a6e4;
+  box-shadow: 5px 10px 27px #07ace629;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(2) .pricing__box .first__box__part .pricing__price {
+  color: #08a6e4;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(2) .pricing__button {
+  background-color: #08a6e4;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(3) .pricing__box {
+  border: 1px solid #55dfb4;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(3) .pricing__box .first__box__part .pricing__price {
+  color: #55dfb4;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox:nth-child(3) .pricing__button {
+  background-color: #55dfb4;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__button {
+  color: #fff;
+  background-color: #fb3b64;
+  border-radius: 23px;
+  margin: -25px 0 0;
+  padding: 16px 57px;
+  font: bold 13px / 18px Open Sans;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box {
+  width: 90%;
+  border: 1px solid #fb3b64;
+  border-radius: 18px;
+  display: flex;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox .pricing__box {
+    height: 461px;
+    flex-direction: column;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .first__box__part {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox .pricing__box .first__box__part {
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .first__box__part .pricing__name {
+  font: bold 20px / 21px Raleway;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .first__box__part .pricing__price {
+  color: #fb3b64;
+  margin: 20px 0;
+  font: 300 46px / 47px Open Sans;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .first__box__part .pricing__offer {
+  font: bold 12px / 13px Raleway;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items {
+  width: 50%;
+  margin: 30px auto 50px;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items {
+    width: 100%;
+    height: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item {
+  margin: 0 2% 0 20%;
+  font: 14px / 41px Open Sans;
+  position: relative;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item {
+    margin: 0;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item:before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  background-image: url("Ckechmark-1.cf657890.svg");
+  margin-left: -21px;
+  position: absolute;
+  top: 15px;
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item__red {
+  margin: 0 2% 0 20%;
+  font: 14px / 41px Open Sans;
+  position: relative;
+}
+
+@media (min-width: 736px) {
+  .pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item__red {
+    margin: 0;
+  }
+}
+
+.pricing__container .pricing__boxes .pricing__overbox .pricing__box .pricing__items .pricing__item__red:before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  background-image: url("Close.f14f7566.svg");
+  margin-left: -21px;
+  position: absolute;
+  top: 15px;
+}
+
+@media (min-width: 736px) {
+  .contact__container {
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+  }
+}
+
+.contact__container .contact__infobox {
+  width: 95%;
+  margin: 50px auto 0;
+}
+
+@media (min-width: 736px) {
+  .contact__container .contact__infobox {
+    width: 50%;
+    max-width: 500px;
+    margin: 50px 0 0;
+  }
+}
+
+.contact__container .contact__infobox .contact__title {
+  font: 40px / 47px Raleway;
+}
+
+@media (min-width: 736px) {
+  .contact__container .contact__infobox .contact__title {
+    margin-bottom: 20px;
+    font: 45px / 57px Raleway;
+  }
+}
+
+.contact__container .contact__infobox .contact__lead {
+  font: 16px / 22px Open Sans;
+}
+
+.contact__container .contact__infobox .contact__info__row .contact__email {
+  color: #a5a5a5;
+  margin: 30px 0 15px;
+  padding-left: 37px;
+  font: 600 16px / 22px Open Sans;
+  position: relative;
+}
+
+.contact__container .contact__infobox .contact__info__row .contact__email:before {
+  content: "";
+  height: 28px;
+  width: 28px;
+  background-image: url("Mail Icon.795518c4.svg");
+  margin-top: -2px;
+  margin-left: -37px;
+  position: absolute;
+}
+
+.contact__container .contact__infobox .contact__info__row .contact__phone {
+  color: #a5a5a5;
+  padding-left: 37px;
+  font: 600 16px / 22px Open Sans;
+  position: relative;
+}
+
+.contact__container .contact__infobox .contact__info__row .contact__phone:before {
+  content: "";
+  height: 28px;
+  width: 28px;
+  background-image: url("Phone Icon.82019235.svg");
+  margin-top: -2px;
+  margin-left: -37px;
+  position: absolute;
+}
+
+.contact__container .contact__form {
+  width: 95%;
+  flex-direction: column;
+  margin: 30px auto 0;
+  display: flex;
+}
+
+@media (min-width: 736px) {
+  .contact__container .contact__form {
+    width: 50%;
+    max-width: 500px;
+    margin: 55px 0 0;
+  }
+}
+
+.contact__container .contact__form label[for="name"], .contact__container .contact__form label[for="email"] {
+  letter-spacing: 3.28px;
+  color: #08a6e4;
+  font: bold 11px / 15px Open Sans;
+}
+
+.contact__container .contact__form input[type="text"], .contact__container .contact__form input[type="email"] {
+  height: 45px;
+  color: #707070;
+  border: none;
+  border-bottom: 1px solid #707070;
+  font: bold 20px Open Sans;
+}
+
+.contact__container .contact__form input[type="text"]:focus-visible, .contact__container .contact__form input[type="email"]:focus-visible {
+  outline: none;
+}
+
+.contact__container .contact__form label[for="email"] {
+  margin-top: 40px;
+}
+
+.contact__container .contact__form input[type="email"] {
+  margin-bottom: 30px;
+}
+
+.contact__container .contact__form .checkbox__row {
+  display: flex;
+}
+
+.contact__container .contact__form .checkbox__row input[type="checkbox"] {
+  appearance: none;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+}
+
+.contact__container .contact__form .checkbox__row input[type="checkbox"]:checked {
+  position: center;
+  background-color: #fff;
+  background-image: url("Checkmark.5be52c02.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact__container .contact__form .checkbox__row label[for="checkbox"] {
+  width: calc(100% - 50px);
+  color: #707070;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font: 12px / 17px Open Sans;
+}
+
+.contact__container .contact__form .button__form {
+  color: #fff;
+  background-color: #08a6e4;
+  border: none;
+  border-radius: 35px;
+  align-self: flex-end;
+  margin-bottom: 59px;
+  padding: 20px 97px;
+  font: bold 13px / 18px Open Sans;
+}
+
+.footer__section {
+  height: 90px;
+  background-color: #f7f7f7;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+.footer__section .footer__container {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer__section .footer__container .footer__logo__box {
+  flex-direction: column;
+  margin-right: 5px;
+  display: flex;
+}
+
+.footer__section .footer__container .footer__logo__box .footer__logo {
+  color: #08a6e4;
+  font: 300 26px / 30px Raleway;
+}
+
+.footer__section .footer__container .footer__logo__box .footer__copyright {
+  color: #a5a5a5;
+  font: 11px / 15px Open Sans;
+}
+
+.footer__section .footer__container .social__media {
+  display: flex;
+}
+
+.footer__section .footer__container .social__media img:first-child {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */
